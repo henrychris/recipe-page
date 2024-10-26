@@ -18,17 +18,19 @@
     </head>
     <body>
         <main>
-            <div>
-                <img
-                    src="./assets/images/image-omelette.jpeg"
-                    alt="A picture of a delicious omelette."
-                />
-            </div>
+            <article class="card">
+                <div class="card-header-image">
+                    <img
+                        src="./assets/images/image-omelette.jpeg"
+                        alt="A picture of a delicious omelette."
+                    />
+                </div>
 
-            <article>
-                <section>
-                    <h1>Simple Omelette Recipe</h1>
-                    <p>
+                <section class="card-recipe-overview">
+                    <h1 class="card-recipe-overview-title">
+                        Simple Omelette Recipe
+                    </h1>
+                    <p class="card-recipe-overview-description">
                         An easy and quick dish, perfect for any meal. This
                         classic omelette combines beaten eggs cooked to
                         perfection, optionally filled with your choice of
@@ -36,7 +38,7 @@
                     </p>
                 </section>
 
-                <section>
+                <section class="card-preparation">
                     <h3>Preparation time</h3>
                     <ul>
                         <li><span>Total:</span>Approximately 10 minutes</li>
@@ -45,9 +47,11 @@
                     </ul>
                 </section>
 
-                <section>
+                <section class="card-recipe-ingredients">
                     <h2>Ingredients</h2>
-                    <ul>
+                    <ul class="card-recipe-ingredients-list">
+                        <!-- test using specific selector -->
+                        <!-- might remove 'card-recipe-ingredients-list' class -->
                         <li>2-3 large eggs</li>
                         <li>Salt, to taste</li>
                         <li>Pepper, to taste</li>
@@ -61,9 +65,9 @@
 
                 <br />
 
-                <section>
+                <section class="card-recipe-instructions">
                     <h2>Instructions</h2>
-                    <ol>
+                    <ol class="card-recipe-instructions-list">
                         <li>
                             <span>Beat the eggs:</span>In a bowl, beat the eggs
                             with a pinch of salt and pepper until they are well
