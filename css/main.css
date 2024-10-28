@@ -9,6 +9,8 @@
     box-sizing: border-box;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
 /*
   ========================================
   VARIABLES
@@ -16,6 +18,16 @@
 */
 :root {
     --white: hsl(0, 0%, 100%);
+
+    --stone-100: hsl(30, 54%, 90%);
+    --stone-150: hsl(30, 18%, 87%);
+    --stone-600: hsl(30, 10%, 34%);
+    --stone-900: hsl(24, 5%, 18%);
+
+    --brown-800: hsl(14, 45%, 36%);
+
+    --rose-800: hsl(332, 51%, 32%);
+    --rose-50: hsl(330, 100%, 98%);
 }
 
 /*
@@ -23,6 +35,48 @@
   TYPOGRAPHY
   ========================================
 */
+
+h1 {
+    font-family: "Young Serif", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 2rem;
+
+    color: var(--stone-900);
+}
+
+h2 {
+    font-family: "Young Serif", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.7rem;
+
+    color: var(--brown-800);
+}
+
+h3 {
+    font-family: "Outfit", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.2rem;
+
+    color: var(--rose-800);
+}
+
+.normal-text {
+    font-family: "Outfit", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 0.875rem;
+
+    color: var(--stone-600);
+}
+
+.bold-text {
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
 
 /*
   ========================================
