@@ -131,23 +131,18 @@ h3 {
 }
 
 ul {
-    padding-left: 0.9rem;
-    /* padding-left: 0; */
-}
+    padding: 0;
+    margin: 0;
 
-.card-preparation ul,
-.card-recipe-ingredients ul {
+    list-style-position: inside;
     list-style-type: square;
 }
 
-.card-preparation li::marker,
-.card-recipe-ingredients li::marker {
+ul li::marker {
+    font-size: 1rem;
     color: var(--rose-800);
-    font-size: 10px; /*use marker pseudo element to customise list bullets */
 }
 
-.card-preparation li,
-.card-recipe-ingredients li {
-    padding-left: 20px;
-    line-height: 2;
+ul li {
+    line-height: 1.5;
 }
