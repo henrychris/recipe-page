@@ -11,17 +11,38 @@
 
 @font-face {
     font-family: "Outfit";
-    src: local("Outfit"),
-        url("../assets/fonts/outfit/Outfit-VariableFont_wght.ttf")
-            format("truetype");
-    font-weight: 400, 600, 700;
+    font-style: normal;
+    font-weight: 100, 900;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/outfit/v11/QGYvz_MVcBeNP4NJuktqQ4E.woff2)
+        format("woff2");
+}
+
+@font-face {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 100, 900;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/outfit/v11/QGYvz_MVcBeNP4NJtEtq.woff2)
+        format("woff2");
 }
 
 @font-face {
     font-family: "Young Serif";
-    src: local("Young Serif"),
-        url("../assets/fonts/young-serif/YoungSerif-Regular.ttf")
-            format("truetype");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/youngserif/v2/3qTpojO2nS2VtkB3KtkQZ1tz3kYoaQ.woff2)
+        format("woff2");
+}
+
+@font-face {
+    font-family: "Young Serif";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/youngserif/v2/3qTpojO2nS2VtkB3KtkQZ1t93kY.woff2)
+        format("woff2");
 }
 
 /*
@@ -51,7 +72,6 @@
 
 h1 {
     font-family: "Young Serif", serif;
-    font-weight: bold;
     font-style: normal;
     font-size: 2rem;
 
@@ -60,7 +80,6 @@ h1 {
 
 h2 {
     font-family: "Young Serif", serif;
-    font-weight: bold;
     font-style: normal;
     font-size: 1.7rem;
 
@@ -69,7 +88,7 @@ h2 {
 
 h3 {
     font-family: "Outfit", sans-serif;
-    font-weight: bold;
+    font-weight: 600;
     font-style: normal;
     font-size: 1.2rem;
 
@@ -87,7 +106,7 @@ h3 {
 
 .bold-text {
     font-family: "Outfit", sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     font-style: normal;
 
     color: var(--stone-600);
