@@ -182,7 +182,7 @@ ol li {
 }
 
 .divider {
-    border: 0.5px solid var(--stone-150);
+    border-bottom: 1px solid var(--stone-150);
 }
 
 table {
