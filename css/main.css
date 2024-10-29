@@ -186,6 +186,7 @@ table td {
     font-family: "Outfit", sans-serif;
     font-size: 0.9rem;
     color: var(--stone-600);
+    text-align: center;
 }
 
 .nutrition-value {
