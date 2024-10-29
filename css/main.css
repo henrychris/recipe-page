@@ -133,7 +133,6 @@ h3 {
 }
 
 ul {
-    padding-left: 0.3rem;
     line-height: 1.5;
 
     list-style-position: inside;
@@ -148,7 +147,6 @@ ul li::marker {
 .list-text {
     position: relative;
     left: 1rem;
-    text-align: justify;
 }
 
 .card-recipe-ingredients h2,
@@ -158,7 +156,6 @@ ul li::marker {
 }
 
 ol {
-    padding-left: 0.3rem;
     line-height: 1.5;
 
     list-style-position: inside;
@@ -168,6 +165,12 @@ ol {
 ol li::marker {
     font-weight: 700;
     color: var(--rose-800);
+}
+
+ul,
+ol {
+    display: block;
+    padding-inline-start: 0.3rem;
 }
 
 .divider {
