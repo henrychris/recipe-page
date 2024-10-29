@@ -9,7 +9,21 @@
     box-sizing: border-box;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+@font-face {
+    font-family: "Outfit";
+    src: local("Outfit"),
+        url("../assets/fonts/outfit/Outfit-VariableFont_wght.ttf")
+            format("truetype");
+    font-weight: 400, 600, 700;
+}
+
+@font-face {
+    font-family: "Young Serif";
+    src: local("Young Serif"),
+        url("../assets/fonts/young-serif/YoungSerif-Regular.ttf")
+            format("truetype");
+    font-weight: 400;
+}
 
 /*
   ========================================
@@ -37,7 +51,7 @@
 */
 
 h1 {
-    font-family: "Young Serif", serif;
+    font-family: "Young Serif";
     font-weight: bold;
     font-style: normal;
     font-size: 2rem;
@@ -46,7 +60,7 @@ h1 {
 }
 
 h2 {
-    font-family: "Young Serif", serif;
+    font-family: "Young Serif";
     font-weight: bold;
     font-style: normal;
     font-size: 1.7rem;
@@ -55,7 +69,7 @@ h2 {
 }
 
 h3 {
-    font-family: "Outfit", serif;
+    font-family: "Outfit";
     font-weight: bold;
     font-style: normal;
     font-size: 1.2rem;
@@ -64,7 +78,7 @@ h3 {
 }
 
 .normal-text {
-    font-family: "Outfit", sans-serif;
+    font-family: "Outfit";
     font-weight: normal;
     font-style: normal;
     font-size: 0.875rem;
@@ -73,7 +87,7 @@ h3 {
 }
 
 .bold-text {
-    font-family: "Outfit", sans-serif;
+    font-family: "Outfit";
     font-weight: 700;
     font-style: normal;
 }
