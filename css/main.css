@@ -81,7 +81,7 @@ h3 {
     font-family: "Outfit", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 0.875rem;
+    font-size: 0.94rem;
 
     color: var(--stone-600);
 }
@@ -135,14 +135,24 @@ ul {
     margin: 0;
 
     list-style-position: inside;
-    list-style-type: square;
+    list-style-type: disc;
 }
 
 ul li::marker {
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: var(--rose-800);
 }
 
 ul li {
     line-height: 1.5;
+    padding-left: 0.3rem;
+}
+
+.list-text {
+    position: relative;
+    left: 1rem;
+}
+
+.card-recipe-ingredients h2 {
+    margin-bottom: 10px;
 }
