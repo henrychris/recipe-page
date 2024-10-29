@@ -106,3 +106,20 @@ body {
     width: 100%;
     height: 100%;
 }
+
+.card-recipe {
+    padding: 20px;
+    text-align: left;
+}
+
+.card-recipe-overview {
+    margin-top: 20px;
+}
+
+.card-recipe-overview-title {
+    margin-bottom: 20px;
+}
+
+.card-recipe-overview-description {
+    margin-bottom: 20px;
+}
