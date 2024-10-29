@@ -115,14 +115,15 @@ h3 {
 }
 
 .card-recipe-overview-title,
-.card-recipe-overview-description {
+.card-recipe-overview-description,
+.card-preparation,
+.card-recipe-ingredients {
     margin-bottom: 20px;
 }
 
 .card-preparation {
     background-color: var(--stone-100);
     border-radius: 10px;
-    margin-bottom: 20px;
     padding: 20px;
 }
 
