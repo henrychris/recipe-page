@@ -22,7 +22,6 @@
     src: local("Young Serif"),
         url("../assets/fonts/young-serif/YoungSerif-Regular.ttf")
             format("truetype");
-    font-weight: 400;
 }
 
 /*
@@ -51,7 +50,7 @@
 */
 
 h1 {
-    font-family: "Young Serif";
+    font-family: "Young Serif", serif;
     font-weight: bold;
     font-style: normal;
     font-size: 2rem;
@@ -60,7 +59,7 @@ h1 {
 }
 
 h2 {
-    font-family: "Young Serif";
+    font-family: "Young Serif", serif;
     font-weight: bold;
     font-style: normal;
     font-size: 1.7rem;
@@ -134,8 +133,7 @@ h3 {
 }
 
 ul {
-    padding: 0;
-    margin: 0;
+    padding-left: 0.3rem;
 
     list-style-position: inside;
     list-style-type: disc;
@@ -148,7 +146,6 @@ ul li::marker {
 
 ul li {
     line-height: 1.5;
-    padding-left: 0.3rem;
 }
 
 .list-text {
@@ -164,8 +161,7 @@ ul li {
 }
 
 ol {
-    padding: 0;
-    margin: 0;
+    padding-left: 0.3rem;
 
     list-style-position: inside;
     list-style-type: decimal;
@@ -178,7 +174,6 @@ ol li::marker {
 
 ol li {
     line-height: 1.5;
-    padding-left: 0.3rem;
 }
 
 .divider {
