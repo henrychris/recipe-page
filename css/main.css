@@ -232,7 +232,7 @@ table tr:last-child {
 
     .card {
         background-color: var(--white);
-        max-width: 360px;
+        max-width: 690px;
 
         border-radius: 15px;
     }
