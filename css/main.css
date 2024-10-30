@@ -14,25 +14,7 @@
     font-style: normal;
     font-weight: 100, 900;
     font-display: swap;
-    src: url(https://fonts.gstatic.com/s/outfit/v11/QGYvz_MVcBeNP4NJuktqQ4E.woff2)
-        format("woff2");
-}
-
-@font-face {
-    font-family: "Outfit";
-    font-style: normal;
-    font-weight: 100, 900;
-    font-display: swap;
     src: url(https://fonts.gstatic.com/s/outfit/v11/QGYvz_MVcBeNP4NJtEtq.woff2)
-        format("woff2");
-}
-
-@font-face {
-    font-family: "Young Serif";
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/youngserif/v2/3qTpojO2nS2VtkB3KtkQZ1tz3kYoaQ.woff2)
         format("woff2");
 }
 
