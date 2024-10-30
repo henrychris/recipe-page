@@ -245,4 +245,12 @@ table tr:last-child {
         border-radius: 15px;
         object-fit: cover;
     }
+
+    table td {
+        padding-left: 1.2rem;
+    }
+
+    table tr {
+        text-align: left;
+    }
 }
