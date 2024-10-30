@@ -236,4 +236,13 @@ table tr:last-child {
 
         border-radius: 15px;
     }
+
+    .card-header-image {
+        padding: 1.2rem 1.2rem 0 1.2rem;
+    }
+
+    .card-header-image img {
+        border-radius: 15px;
+        object-fit: cover;
+    }
 }
