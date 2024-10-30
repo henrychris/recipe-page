@@ -209,13 +209,20 @@ table {
 
 table td {
     padding: 8px 0;
-    border-bottom: 1px solid var(--stone-150);
+}
 
+table tr {
     font-family: "Outfit", sans-serif;
     font-size: 0.9rem;
     text-align: center;
 
     color: var(--stone-600);
+
+    border-bottom: 1px solid var(--stone-150);
+}
+
+table tr:last-child {
+    border-bottom: none;
 }
 
 .nutrition-value {
